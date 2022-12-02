@@ -39,6 +39,12 @@ https://www.vmware.com/topics/glossary/content/virtual-machine.html
 <summary>Operating system</summary>
 <br>
 	I choose Debian because of Package management and followed the suggestion on subject to "You must choose as an operating system either the latest stable version of Debian (no testing/unstable), or the latest stable version of CentOS. Debian is highly recommended if you are new to system administration."
+	Debian vs CentOS
+	
+	https://www.educba.com/centos-vs-debian/
+	
+	
+	
 	
 </details>
 <details>
