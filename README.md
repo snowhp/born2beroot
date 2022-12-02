@@ -7,17 +7,18 @@ your own operating system while implementing strict rules"
 
 # Where you can learn more !
 
-Internet
-https://github.com/benmaia/42_Born2beRoot_Guide/
-https://github.com/ayoub0x1/born2beroot
-https://github.com/hanshazairi/42-born2beroot
-[Bonus]
-Disk mount: https://www.youtube.com/watch?v=2w-2MX5QrQw
+Internet<br>
+https://github.com/benmaia/42_Born2beRoot_Guide/<br>
+https://github.com/ayoub0x1/born2beroot<br>
+https://github.com/hanshazairi/42-born2beroot<br>
 
-#What you should test before evalution 
+[Bonus]<br>
+Disk mount: https://www.youtube.com/watch?v=2w-2MX5QrQw<br>
+
+# What you should test before evalution 
 
 <details>
-<summary>Some of the test that will be perfommed by evaluators Thanks to [@ccosta-c](https://github.com/ccosta-c "@ccosta-c")</summary>
+<summary>Some of the test that will be perfommed by evaluators</summary>
 <br>
 	sudo ufw status - check ufw status;
     sudo service ssh status - check SSH status
@@ -47,3 +48,4 @@ Disk mount: https://www.youtube.com/watch?v=2w-2MX5QrQw
     sudo crontab -u root -e --- check cron tabs
     dpkg -l | grep lighttpd or MariaDB or PHP
 </details>
+Thanks to [ccosta-c](https://github.com/ccosta-c)
