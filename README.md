@@ -5,6 +5,10 @@ You will create your first machine in VirtualBox (or UTM if you can’t use Virt
 under specific instructions. Then, at the end of this project, you will be able to set up
 your own operating system while implementing strict rules"
 
+# Important 
+
+Subject was updated on 07/12/2022 - https://www.centos.org/centos-linux-eol/
+Centos -> Rocky
 # Where you can learn more !
 
 Internet<br>
@@ -42,13 +46,16 @@ https://www.vmware.com/topics/glossary/content/virtual-machine.html
 <summary>Operating system</summary>
 <br>
 	I choose Debian because of Package management and followed the suggestion on subject to "You must choose as an operating system either the latest stable version of Debian (no testing/unstable), or the latest stable version of CentOS. Debian is highly recommended if you are new to system administration."
-	Debian vs CentOS
+	Differences between debian and 11 and rocky linux
+	- Rocky doesn't support 32 bit
+	- Debian its the mother of many operating systems like Ubuntu
+	- AppArmor enable by default on Debian and SELinux on Rocky
+	- exFAT support on Debian
+	- apt use as a package manager in Debian, and Yum, DNF on rocky.
+	- Debian is know to care about the stability of the applications it ships with, and guarantees that your server and apps running on it are "OK".
+	- Rocky is a replacement of CentOS, its intended to have stability that RedHat releases will have, offering the confidence that users always enjoyed with CentOS.
 	
-	https://www.educba.com/centos-vs-debian/
-	
-	
-	
-	
+	https://computingforgeeks.com/debian-11-vs-debian-10-vs-rocky-linux-8-comparison-table/
 </details>
 <details>
 <summary>Some of the test that will be perfommed by evaluators</summary>
