@@ -15,6 +15,8 @@ https://github.com/hanshazairi/42-born2beroot<br>
 [Bonus]<br>
 Disk mount: https://www.youtube.com/watch?v=2w-2MX5QrQw<br>
 
+Some of the tutorials are missing the step of close port 68 ( displayed on ss -tunlp)
+
 # What you should test before evalution 
 <details>
 <summary>How a virtual machine works</summary>
