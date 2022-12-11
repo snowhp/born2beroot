@@ -45,17 +45,17 @@ https://www.vmware.com/topics/glossary/content/virtual-machine.html
 <details>
 <summary>Operating system</summary>
 <br>
-	I choose Debian because of Package management and followed the suggestion on subject to "You must choose as an operating system either the latest stable version of Debian (no testing/unstable), or the latest stable version of CentOS. Debian is highly recommended if you are new to system administration."
-	Differences between debian and 11 and rocky linux
-	- Rocky doesn't support 32 bit
-	- Debian its the mother of many operating systems like Ubuntu
-	- AppArmor enable by default on Debian and SELinux on Rocky
-	- exFAT support on Debian
-	- apt use as a package manager in Debian, and Yum, DNF on rocky.
-	- Debian is know to care about the stability of the applications it ships with, and guarantees that your server and apps running on it are "OK".
-	- Rocky is a replacement of CentOS, its intended to have stability that RedHat releases will have, offering the confidence that users always enjoyed with CentOS.
+	I choose Debian because of Package management and followed the suggestion on subject to "You must choose as an operating system either the latest stable version of Debian (no testing/unstable), or the latest stable version of CentOS. Debian is highly recommended if you are new to system administration."</br>
+	Differences between debian and 11 and rocky linux</br>
+	- Rocky doesn't support 32 bit</br>
+	- Debian its the mother of many operating systems like Ubuntu</br>
+	- AppArmor enable by default on Debian and SELinux on Rocky</br>
+	- exFAT support on Debian</br>
+	- apt use as a package manager in Debian, and Yum, DNF on rocky.</br>
+	- Debian is know to care about the stability of the applications it ships with, and guarantees that your server and apps running on it are "OK".</br>
+	- Rocky is a replacement of CentOS, its intended to have stability that RedHat releases will have, offering the confidence that users always enjoyed with CentOS.</br>
 	
-	https://computingforgeeks.com/debian-11-vs-debian-10-vs-rocky-linux-8-comparison-table/
+	https://computingforgeeks.com/debian-11-vs-debian-10-vs-rocky-linux-8-comparison-table/</br>
 </details>
 <details>
 <summary>Some of the test that will be perfommed by evaluators</summary>
