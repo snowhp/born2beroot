@@ -42,11 +42,13 @@ Sources: https://www.mongodb.com/cloud-explained/virtual-machines
 
 https://www.vmware.com/topics/glossary/content/virtual-machine.html
 </details>
+</br>
 <details>
 <summary>LVM</summary>
 <br>
 		FILL
 </details>
+</br>
 <details>
 <summary>Operating system</summary>
 <br>
@@ -67,12 +69,14 @@ https://www.vmware.com/topics/glossary/content/virtual-machine.html
 	What APPArmor is?</br>
 		FILL
 </details>
+</br>
 <details>
 <summary>Password Policy</summary>
 <br>
 	FILL
 	ADVANTAGES VS DISADVANTAGES
 </details>
+</br>
 <details>
 <summary>Sudo</summary>
 <br>
@@ -82,6 +86,7 @@ https://www.vmware.com/topics/glossary/content/virtual-machine.html
 		
 		FILL
 </details>
+</br>
 <details>
 <summary>UFW</summary>
 <br>
@@ -95,6 +100,7 @@ https://www.vmware.com/topics/glossary/content/virtual-machine.html
 		FILL
 		
 </details>
+</br>
 <details>
 <summary>Bonus service</summary>
 <br>
