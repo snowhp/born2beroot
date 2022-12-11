@@ -22,7 +22,7 @@ Disk mount: https://www.youtube.com/watch?v=2w-2MX5QrQw<br>
 
 Some of the tutorials are missing the step of close port 68 ( displayed on ss -tunlp)
 
-# What you should test before evalution 
+# What you should know before evalution 
 <details>
 <summary>How a virtual machine works</summary>
 <br>
@@ -42,6 +42,10 @@ Sources: https://www.mongodb.com/cloud-explained/virtual-machines
 
 https://www.vmware.com/topics/glossary/content/virtual-machine.html
 </details>
+<summary>LVM</summary>
+<br>
+		FILL
+</details>
 <details>
 <summary>Operating system</summary>
 <br>
@@ -56,7 +60,48 @@ https://www.vmware.com/topics/glossary/content/virtual-machine.html
 	- Rocky is a replacement of CentOS, its intended to have stability that RedHat releases will have, offering the confidence that users always enjoyed with CentOS.</br>
 	
 	https://computingforgeeks.com/debian-11-vs-debian-10-vs-rocky-linux-8-comparison-table/</br>
+	
+	Difference between aptidude and apt?</br>
+		FILL
+	What APPArmor is?</br>
+		FILL
 </details>
+<details>
+<summary>Password Policy</summary>
+<br>
+	FILL
+	ADVANTAGES VS DISADVANTAGES
+</details>
+<details>
+<summary>Sudo</summary>
+<br>
+		FILL
+		
+		SUDO RULES
+		
+		FILL
+</details>
+<details>
+<summary>UFW</summary>
+<br>
+		FILL
+		
+</details>
+</br>
+<details>
+<summary>SSH</summary>
+<br>
+		FILL
+		
+</details>
+<details>
+<summary>Bonus service</summary>
+<br>
+		FILL
+		
+</details>
+</br>
+</br>
 <details>
 <summary>Some of the test that will be perfommed by evaluators</summary>
 <br>
