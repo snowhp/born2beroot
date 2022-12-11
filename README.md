@@ -46,7 +46,11 @@ https://www.vmware.com/topics/glossary/content/virtual-machine.html
 <details>
 <summary>LVM</summary>
 <br>
-		FILL
+		Logical volume management provides a higher-level view of the disk storage on a computer system than the traditional view of disks and partitions. This gives the system administrator much more flexibility in allocating storage to applications and users.
+
+Storage volumes created under the control of the logical volume manager can be resized and moved around almost at will. 
+
+	https://wiki.debian.org/LVM
 </details>
 </br>
 <details>
