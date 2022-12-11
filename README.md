@@ -42,6 +42,7 @@ Sources: https://www.mongodb.com/cloud-explained/virtual-machines
 
 https://www.vmware.com/topics/glossary/content/virtual-machine.html
 </details>
+<details>
 <summary>LVM</summary>
 <br>
 		FILL
