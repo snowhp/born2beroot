@@ -90,15 +90,16 @@ AppArmor is a useful tool for improving the security of a Linux system, and is o
 </br>
 <details>
 <summary>Password Policy</summary>
-<br>
-	Advantages</br>
+<br></br>
+
+## Advantages</br>
 Improved security- Strong passwords are more difficult to guess or crack, making it harder for attackers to gain unauthorized access to systems and data.</br>
 
 Reduced risk of compromise- By requiring strong passwords, the risk of password-based attacks is greatly reduced. This includes attacks such as dictionary attacks, brute-force attacks, and others that rely on weak or easily guessable passwords.</br>
 
 Enhanced compliance- Strong password policies can help organizations meet regulatory and industry compliance requirements, such as PCI DSS or HIPAA.</br>
 
-Disadvantages</br>
+## Disadvantages</br>
 
 Increased complexity- Strong passwords are typically longer and more complex, which can make them harder for users to remember. This can lead to increased support costs as users may need to reset their passwords more often.</br>
 
@@ -110,25 +111,83 @@ Higher overhead- Implementing and enforcing strong password policies can require
 <details>
 <summary>Sudo</summary>
 <br>
-		FILL
+	
+sudo (short for "superuser do") is a command in Linux and other Unix-like operating systems that allows users to execute commands as the superuser (i.e., root user) or other users. It is used to execute commands with elevated privileges, which are required for certain tasks that ordinary users are not allowed to perform.</br>
+
+Using sudo allows you to perform tasks that require root privileges without logging in as the root user. This is useful because the root user has complete control over the system, and any mistakes made while logged in as the root user can have serious consequences. By using sudo, you can perform these tasks while logged in as an ordinary user and only elevate your privileges when needed.</br>
+
+## Some common tasks that may require root privileges include
+
+Installing software or system updates</br>
+Changing system settings or configurations</br>
+Accessing and modifying system files</br>
+
+Using sudo is generally considered a best practice because it helps to prevent accidental changes to the system and helps to ensure that only authorized users are able to perform sensitive tasks.</br>
+
+To use sudo, you must first be granted permission by a system administrator or by the root user. This is done by adding your user account to the sudoers file, which is a configuration file that specifies which users are allowed to use sudo and which commands they are allowed to execute. Once you have been granted sudo privileges, you can use the sudo command followed by the command you want to execute, and you will be prompted to enter your password. This verifies your identity and allows you to perform the command with the elevated privileges of the specified user.</br>
+	
+## Sudo policy
+
+The sudoers file is a configuration file that specifies which users are allowed to use the sudo command and which commands they are allowed to execute. It is an important part of the sudo system, which allows users to execute commands as the superuser (i.e., root user) or other users.</br>
+
+The sudoers file is located at "/etc/sudoers" on most Linux systems, and it is used to control who can use sudo and what they are allowed to do. The file is typically managed by the system administrator, and it contains a list of rules that specify which users are allowed to use sudo and which commands they are allowed to execute.</br>
+
+The sudoers file uses a specific syntax to define the rules. For example, a rule may look like this:</br>
+
+user ALL=(ALL) ALL</br>
+
+This rule allows the user "user" to run any command as any user on the system.</br>
+
+By default, the root user is allowed to use sudo and execute any command. However, you can use the sudoers file to grant sudo privileges to other users and to restrict the commands they are allowed to execute. This is useful because it allows you to delegate certain tasks to other users while still maintaining control over the system.</br>
+
+Overall, the sudoers file is an important part of the sudo system and is used to control who can use sudo and what they are allowed to do. It helps to ensure that only authorized users are able to perform sensitive tasks and helps to prevent accidental changes to the system.</br>
 		
-		SUDO RULES
-		
-		FILL
+https://www.sudo.ws/docs/man/sudoers.man/
 </details>
 </br>
 <details>
 <summary>UFW</summary>
 <br>
-		FILL
+UFW (Uncomplicated Firewall) is a firewall application for Linux systems. It is designed to be easy to use and configure, making it a popular choice for users who want a simple way to manage their firewall.
+
+A firewall is a security system that controls incoming and outgoing network traffic based on predetermined security rules. It is used to protect a network or system from unauthorized access and to allow only authorized traffic to pass through.
+
+UFW is a frontend for the Linux kernel's netfilter framework, which is a packet filtering system that allows you to control incoming and outgoing network traffic. UFW simplifies the process of configuring and managing the netfilter firewall by providing a set of commands and a configuration file that can be used to define the firewall rules.
+
+## Some common uses for UFW include:
+
+Blocking unwanted traffic: You can use UFW to block incoming traffic from specific IP addresses or ranges, or to block certain types of traffic (e.g., HTTP, FTP).
+
+Allowing specific traffic: You can use UFW to allow incoming traffic from specific IP addresses or ranges, or to allow certain types of traffic (e.g., SSH, SMTP).
+
+Monitoring firewall activity: You can use UFW to view the current firewall rules and to see what traffic is being allowed or denied by the firewall.
+
+Overall, UFW is a useful tool for managing the firewall on a Linux system. It provides an easy-to-use interface for controlling incoming and outgoing traffic, helping to secure your system and protect it from unauthorized access.
 		
+	
+https://www.linux.com/training-tutorials/introduction-uncomplicated-firewall-ufw/</br>
 </details>
 </br>
 <details>
 <summary>SSH</summary>
 <br>
-		FILL
+SSH (Secure Shell) is a network protocol used to securely connect to a computer over a network. It is often used to remotely access and manage servers, network devices, and other types of computer systems.</br>
+
+To use SSH, you need a client program on your local computer that can establish an SSH connection to a remote server. The most common SSH client for Windows is PuTTY, and for macOS and Linux, it is the built-in terminal. Once connected to the remote server, you can use the command line to execute commands and manage the remote system as if you were sitting in front of it.</br>
+
+## Some common uses for SSH include:
+
+Remote command execution: You can use SSH to remotely execute commands on a server or network device. This can be useful for managing servers and automating tasks.</br>
+
+Secure file transfer: You can use SSH to securely transfer files between computers using the Secure Copy Protocol (SCP).</br>
+
+VPN (Virtual Private Network) connection: You can use SSH to create a secure, encrypted tunnel between two computers, allowing you to access network resources on one computer as if you were on the other.</br>
+
+Remote desktop access: Some SSH clients, such as X2Go, allow you to remotely access and control the desktop of a remote computer.</br>
+
+Overall, SSH is an essential tool for anyone working with servers and other types of remote systems. It provides a secure and convenient way to remotely access and manage these systems.</br>
 		
+https://www.ssh.com/academy/ssh
 </details>
 </br>
 <details>
