@@ -193,7 +193,19 @@ https://www.ssh.com/academy/ssh
 <details>
 <summary>Bonus service</summary>
 <br>
-		FILL
+FTP (File Transfer Protocol) is a standard network protocol used for transferring files between computers. It is often used to transfer files between a client and a server, or between servers. FTP is useful for a variety of reasons, including</br>
+
+Transferring large files: FTP can be used to transfer large files between computers, making it a useful tool for transferring files that are too large to send via email.</br>
+
+Automatic file transfers: FTP can be configured to automatically transfer files between computers at scheduled intervals, making it a useful tool for automating file transfers.</br>
+
+Secure file transfers: FTP can be configured to use SSL/TLS (Secure Sockets Layer/Transport Layer Security) to encrypt the connection, making it a secure way to transfer sensitive files.</br>
+
+Accessing files remotely: FTP can be used to remotely access and manage files on a server, making it a useful tool for remotely managing a website or other types of files.</br>
+
+Collaborating with others: FTP can be used to share files with others, making it a useful tool for collaboration.</br>
+
+Overall, FTP is a useful tool for transferring files between computers and for managing files remotely. It is commonly used to transfer files to and from web servers, making it an important tool for web developers and others who work with websites.</br>
 		
 </details>
 </br>
