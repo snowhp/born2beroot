@@ -66,32 +66,45 @@ Storage volumes created under the control of the logical volume manager can be r
 	- Debian is know to care about the stability of the applications it ships with, and guarantees that your server and apps running on it are "OK".</br>
 	- Rocky is a replacement of CentOS, its intended to have stability that RedHat releases will have, offering the confidence that users always enjoyed with CentOS.</br>
 	
-	https://computingforgeeks.com/debian-11-vs-debian-10-vs-rocky-linux-8-comparison-table/</br>
+<br>https://computingforgeeks.com/debian-11-vs-debian-10-vs-rocky-linux-8-comparison-table/</br>
 	
-	Difference between aptidude and apt?</br>
-		FILL
-	What APPArmor is?</br>
-		FILL
+Difference between aptidude and apt?</br>
+Aptitude and apt are two package management tools that are used to install, remove, and manage packages on Debian-based systems.
+
+The main difference between aptitude and apt is the way they handle dependencies. aptitude is able to resolve dependencies in a more sophisticated way than apt, and it can also handle conflicting dependencies more gracefully. For example, if a package depends on another package that is not installed, aptitude will automatically install the required package and any other dependencies that are needed. In contrast, apt will only install the requested package and will not automatically install any dependencies.</br>
+
+Another difference between the two tools is the interface. aptitude has a more interactive, user-friendly interface, with features such as a search function and the ability to mark packages for installation, removal, or purging. apt, on the other hand, has a more command-line oriented interface and does not have as many interactive features.</br>
+
+Overall, aptitude is generally considered to be more user-friendly and easier to use than apt, but apt is generally faster and more efficient. Both tools can be used to achieve the same results, and it is up to the user to decide which one they prefer to use.</br>
+
+<br>What APPArmor is?</br>
+	
+AppArmor (Application Armor) is a Linux kernel security module that allows administrators to define security policies for applications and processes running on a system. It is designed to protect against malicious or accidental access to sensitive files and resources, and to prevent applications from making unauthorized changes to the system.</br>
+
+With AppArmor, administrators can specify rules that define what resources an application or process is allowed to access, and what actions it is allowed to perform. For example, an AppArmor policy could allow an application to read and write to certain directories, but not to execute any system commands.</br></br></br>
+
+AppArmor is implemented in the Linux kernel and is able to monitor and enforce the security policies for all applications and processes running on the system. It is transparent to the user and does not require any special configuration or setup on the part of the user.</br></br>
+
+AppArmor is a useful tool for improving the security of a Linux system, and is often used in conjunction with other security measures such as firewalls and intrusion detection systems.</br>
 </details>
 </br>
 <details>
 <summary>Password Policy</summary>
 <br>
-	Advantages
+	Advantages</br>
+Improved security- Strong passwords are more difficult to guess or crack, making it harder for attackers to gain unauthorized access to systems and data.</br>
 
-    Improved security: Strong passwords are more difficult to guess or crack, making it harder for attackers to gain unauthorized access to systems and data.
+Reduced risk of compromise- By requiring strong passwords, the risk of password-based attacks is greatly reduced. This includes attacks such as dictionary attacks, brute-force attacks, and others that rely on weak or easily guessable passwords.</br>
 
-    Reduced risk of compromise: By requiring strong passwords, the risk of password-based attacks is greatly reduced. This includes attacks such as dictionary attacks, brute-force attacks, and others that rely on weak or easily guessable passwords.
+Enhanced compliance- Strong password policies can help organizations meet regulatory and industry compliance requirements, such as PCI DSS or HIPAA.</br>
 
-    Enhanced compliance: Strong password policies can help organizations meet regulatory and industry compliance requirements, such as PCI DSS or HIPAA.
+Disadvantages</br>
 
-Disadvantages
+Increased complexity- Strong passwords are typically longer and more complex, which can make them harder for users to remember. This can lead to increased support costs as users may need to reset their passwords more often.</br>
 
-    Increased complexity: Strong passwords are typically longer and more complex, which can make them harder for users to remember. This can lead to increased support costs as users may need to reset their passwords more often.
+Decreased usability- Strong passwords may also be less convenient for users, as they may need to use special characters or change their passwords more frequently. This can lead to user frustration and decreased productivity. </br>
 
-    Decreased usability: Strong passwords may also be less convenient for users, as they may need to use special characters or change their passwords more frequently. This can lead to user frustration and decreased productivity.
-
-    Higher overhead: Implementing and enforcing strong password policies can require additional resources, such as tools and processes for password management and password audits. This can increase the overhead associated with password management.
+Higher overhead- Implementing and enforcing strong password policies can require additional resources, such as tools and processes for password management and password audits. This can increase the overhead associated with password management.</br>
 </details>
 </br>
 <details>
