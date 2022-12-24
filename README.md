@@ -77,8 +77,21 @@ Storage volumes created under the control of the logical volume manager can be r
 <details>
 <summary>Password Policy</summary>
 <br>
-	FILL
-	ADVANTAGES VS DISADVANTAGES
+	Advantages:
+
+    Improved security: Strong passwords are more difficult to guess or crack, making it harder for attackers to gain unauthorized access to systems and data.
+
+    Reduced risk of compromise: By requiring strong passwords, the risk of password-based attacks is greatly reduced. This includes attacks such as dictionary attacks, brute-force attacks, and others that rely on weak or easily guessable passwords.
+
+    Enhanced compliance: Strong password policies can help organizations meet regulatory and industry compliance requirements, such as PCI DSS or HIPAA.
+
+Disadvantages:
+
+    Increased complexity: Strong passwords are typically longer and more complex, which can make them harder for users to remember. This can lead to increased support costs as users may need to reset their passwords more often.
+
+    Decreased usability: Strong passwords may also be less convenient for users, as they may need to use special characters or change their passwords more frequently. This can lead to user frustration and decreased productivity.
+
+    Higher overhead: Implementing and enforcing strong password policies can require additional resources, such as tools and processes for password management and password audits. This can increase the overhead associated with password management.
 </details>
 </br>
 <details>
