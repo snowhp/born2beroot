@@ -15,7 +15,7 @@ Internet<br>
 https://github.com/benmaia/42_Born2beRoot_Guide/<br>
 https://github.com/ayoub0x1/born2beroot<br>
 https://github.com/hanshazairi/42-born2beroot<br>
-https://nostressdev.tistory.com/3
+https://nostressdev.tistory.com/12
 
 [Bonus]<br>
 Disk mount: https://www.youtube.com/watch?v=2w-2MX5QrQw<br>
