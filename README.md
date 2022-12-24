@@ -193,7 +193,8 @@ https://www.ssh.com/academy/ssh
 <details>
 <summary>Bonus service</summary>
 <br>
-FTP (File Transfer Protocol) is a standard network protocol used for transferring files between computers. It is often used to transfer files between a client and a server, or between servers. FTP is useful for a variety of reasons, including</br>
+FTP (File Transfer Protocol) is a standard network protocol used for transferring files between computers. It is often used to transfer files between a client and a server, or between servers. FTP is useful for a variety of reasons, including:</br>
+
 
 Transferring large files: FTP can be used to transfer large files between computers, making it a useful tool for transferring files that are too large to send via email.</br>
 
@@ -211,9 +212,12 @@ Overall, FTP is a useful tool for transferring files between computers and for m
 </br>
 </br>
 <details>
-<summary>Some of the test that will be perfommed by evaluators</summary>
+<summary>What to do as a evaluator</summary>
 <br>
-	sudo ufw status - check ufw status;<br>
+	
+Make sure you understand them!</br>
+	
+   sudo ufw status - check ufw status;<br>
     sudo service ssh status - check SSH status<br>
     ssh ccosta-c@ip -p 4242 - enter remotely<br>
     uname -v - check OS<br>
