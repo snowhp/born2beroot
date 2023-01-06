@@ -212,7 +212,7 @@ Overall, FTP is a useful tool for transferring files between computers and for m
 </br>
 </br>
 <details>
-<summary>What to do as a evaluator</summary>
+<summary>Useful commands for evaluation</summary>
 <br>
 	
 Make sure you understand them!</br>
